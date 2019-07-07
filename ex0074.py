@@ -21,6 +21,7 @@ def contagem(ini, fim, passo):
     for i in range(ini,fim,passo):
         print(i, end=' ')
         # sleep(1)
+    print(fim)
     print('FIM!')
     print('=-' * 30)
 
