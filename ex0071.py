@@ -1,9 +1,7 @@
 print('##Exercicio 71##')
-
 jogadores = list()
 jogador = dict()
 gols = list()
-
 
 while True:
     jogador['Nome'] = str(input('Nome do Jogador: '))
