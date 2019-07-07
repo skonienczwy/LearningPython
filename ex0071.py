@@ -41,12 +41,3 @@ while True:
                     print(f'No Jogo {i+1} fez {gols[i]} ')
             exit()
 
-# print(f'O Jogador {jogador["Nome"]} jogou {partidas} partidas.')
-
-
-# for i in range(0,len(jogador["Gols"])):
-#     print(f'Na partida {i+1} ele fez {jogador["Gols"][i]}')
-#
-#
-# print(f'Foi um total de {sum(jogador["Gols"])} gols.')
-# print('-=' * 30)
