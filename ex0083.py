@@ -1,4 +1,4 @@
-from UtilidadesCeV.moeda83 import metade,dobro,aumentar,diminuir
+from UtilidadesCeV.Moeda.moeda83 import metade,dobro,aumentar,diminuir
 
 print('##Exercicio 83##')
 

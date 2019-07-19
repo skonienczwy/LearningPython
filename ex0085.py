@@ -1,4 +1,4 @@
-from UtilidadesCeV.moeda85 import metade,dobro,aumentar,diminuir,formata
+from UtilidadesCeV.Moeda.moeda85 import metade,dobro,aumentar,diminuir,formata
 print('##Exercicio 85##')
 
 valor = float(input('Digite o preço R$ '))
