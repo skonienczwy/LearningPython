@@ -1,4 +1,5 @@
 from colorama import Fore, Back, Style
+
 print('##Exercicio 88##')
 
 
@@ -11,13 +12,15 @@ def leiaInt(num):
 
         except ValueError as erro:
                 print(f'O Erro for causado por {erro.__class__}')
-                from colorama import Fore, Back, Style
+
                 print(Fore.RED + 'ERRO! Digite um número Inteiro válido:')
                 print(Style.RESET_ALL)
         except EOFError as erro:
-            from colorama import Fore, Back, Style
+
             print(Fore.RED + f'Não há dados inseridos pelo usuário, Erro foi identificado como: {erro.__class__}')
             exit()
+
+
 
 
 def leiaFloat(num):
@@ -30,9 +33,11 @@ def leiaFloat(num):
                 print(Fore.RED + 'ERRO! Digite um número Real válido:')
                 print(Style.RESET_ALL)
         except EOFError as erro:
-            print(Fore.RED + f'Não há dados inseridos pelo usuário, Erro foi identificado como: {erro.__class__}')
-            print(Style.RESET_ALL)
-            exit()
+                print(Fore.RED + f'Não há dados inseridos pelo usuário, Erro foi identificado como: {erro.__class__}')
+                print(Style.RESET_ALL)
+                exit()
+
+
 
 
 n = leiaInt('Digite Um numero Inteiro: ')
